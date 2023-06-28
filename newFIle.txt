@@ -1,1 +1,41 @@
 Adding new file from offline editor
+
+Git:
+    Version Control
+    Distributed (on Cloud)
+    Collaboration
+    Tracking Changes
+    Recovery
+
+Tools
+    github
+    gtbash
+    bitbucket
+    gitpod
+    hitlabs
+
+https://git-scm.com/
+
+Offline VS Code setup
+
+git config --global user.name "connect-azmath"
+git config --global user.email "azmath....@gmail.com"  
+git init
+git remote add origin https://github.com/connect-Azmath/gitDemo.git
+git push --set-upstream connect-azmath master
+
+Offline VS Code editor
+    index.html
+    style.css
+
+Staging (We are making changes ready to be uploaded)
+   
+git add . (for adding all files)
+git add <Filename> (any particular file)
+
+git status (red / green)
+
+git commit -m "proper message"
+
+git push origin master (master / main)
+
